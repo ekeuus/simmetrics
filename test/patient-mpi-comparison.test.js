@@ -29,7 +29,7 @@ var BlockDistance = require('../lib/similaritymetrics/BlockDistance'),
     OverlapCoefficient = require('../lib/similaritymetrics/OverlapCoefficient'),
     QGramsDistance = require('../lib/similaritymetrics/QGramsDistance'),
     SmithWatermanGotoh = require('../lib/similaritymetrics/SmithWatermanGotoh'),
-    SoundEx = require('../lib/similaritymetrics/SoundEx'),
+    SoundEx = require('../lib/similaritymetrics/Soundex'),
     TokeniserWhitespace = require('../lib/tokenisers/TokeniserWhitespace');
 
 /**
