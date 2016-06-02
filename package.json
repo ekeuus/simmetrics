@@ -1,5 +1,5 @@
 {
-  "name": "simmetrics",
+  "name": "@kba/simmetrics",
   "version": "0.8.10",
   "description": "An optimized port of the SimMetrics Java library",
   "keywords": [
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.github.com/lawrenae/simmetrics.git"
+    "url": "http://www.github.com/kba/simmetrics.git"
   },
   "dependencies": {
     "lodash": "*"
