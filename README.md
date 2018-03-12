@@ -19,7 +19,7 @@
 In your project
 
 ```
-npm install --save '@kba/simmetrics'
+npm install --save 'simmetrics-lodash'
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ This module exports the file tree in `./lib` as an object, i.e. relative path
 from `./lib` equals object path:
 
 ```js
-var simmetrics = require('@kba/simmetrics');
+var simmetrics = require('simmetrics-lodash');
 var MogenElkan = simmetrics.similaritymetrics.MongeElkan;
 …
 ```
