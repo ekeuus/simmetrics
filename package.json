@@ -1,6 +1,6 @@
 {
-  "name": "@kba/simmetrics",
-  "version": "0.8.13",
+  "name": "simmetrics-lodash",
+  "version": "0.9.0",
   "description": "An optimized port of the SimMetrics Java library",
   "keywords": [
     "SimMetrics",
@@ -10,14 +10,11 @@
   "bugs": {
     "email": "andy.lawrence@gmail.com"
   },
-  "license": "GPv2",
-  "author": {
-    "name": "Andy Lawrence",
-    "email": "andy.lawrence@gmail.com"
-  },
+  "license": "UNLICENSED",
+  "author": "Andy Lawrence <andy.lawrence@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://www.github.com/kba/simmetrics.git"
+    "url": "git+https://github.com/ekeuus/simmetrics.git"
   },
   "dependencies": {
     "lodash": "*"
@@ -28,5 +25,14 @@
   },
   "engines": {
     "node": ">=0.10.3"
+  },
+  "homepage": "https://github.com/ekeuus/simmetrics#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
   }
 }
